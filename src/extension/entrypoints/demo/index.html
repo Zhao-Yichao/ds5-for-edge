@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN" data-ds5-demo="true">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DS5 · 客厅模式 Demo</title></head>
+<body>
+  <header><a class="brand" href="#">DS5 <span>/ EDGE</span></a><span class="build">SPRINT 04 <i></i> INTERACTIVE DEMO</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">LESS REACHING. MORE WATCHING.</p><h1>靠下来，<br>接下来交给手柄。</h1><p class="lead">一个面向沙发与大屏的浏览实验。<br>用方向选择感兴趣的内容，让观看自然继续。</p><button id="start">开启控制 <span>↗</span></button><p class="note">没有手柄也可以用键盘体验 · 不连接任何外部服务</p></div><div class="controller-art" aria-hidden="true"><div class="pad"><div class="touch"></div><b class="cross">✚</b><div class="buttons"><span>△</span><span>□</span><span>○</span><span>×</span></div><div class="stick left"></div><div class="stick right"></div><div class="led"></div></div><span class="art-label">DUALSENSE INSPIRED / BROWSER PROTOTYPE</span></div></section>
+    <section class="browse"><div class="section-heading"><div><p class="eyebrow">01 / DISCOVER</p><h2>从一张卡片开始</h2></div><span>方向键选择 → Enter 打开</span></div><div class="grid" id="cards"></div></section>
+    <section class="watch" id="watch"><div class="section-heading"><div><p class="eyebrow">02 / WATCH</p><h2 id="watch-title">选择内容，开始播放</h2></div><span>空格播放 · [ ] 跳转 · M 静音</span></div><div class="player" data-ds5-player><video controls preload="auto" loop src="/demo.webm" aria-label="本地演示视频"></video><div class="player-caption">本地生成的演示画面 · 无网络视频或账号数据</div></div></section>
+    <section class="details"><div><p class="eyebrow">CONTINUOUS BROWSING</p><h2>换一个视频，<br>控制自然继续。</h2></div><p>按钮、链接、图标都可选择；其他网站在扩展弹窗中授权启用。<br>启用后新页面自动延续；触摸板指针与本地助手后续推进。<br><span id="media-status">正在加载本地演示视频…</span></p></section>
+  </main><footer>DS5 FOR EDGE <span>PROTOTYPE 0.9.14 · BUILT FOR ITERATION</span></footer>
+  <script type="module" src="./main.ts"></script>
+</body></html>
+
+
+
